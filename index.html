@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/leaflet.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+    <div class="col-sm-12">
+        <header>
+            <h3 id="title">Lab 4</h3>
+            <i>By Alexis Saenz</i>
+        </header>
+
+    </div>
+    <div class="col-sm-3">
+        <section id="options-map">
+        <section id="controls">
+            <form class="form" role="form">
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-phl-train" checked> PHL_TrainStations
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="ch-health" checked> Health_Centers
+                </label>
+            </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-hospitals" checked> Hospitals_PHL
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-100m" checked> 100m_ServiceArea
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-250m" checked> 250m_ServiceArea
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-500m" checked> 500m_ServiceArea
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="ch-phl-bus" checked> PHL_BusRouts
+                    </label>
+                </div>
+
+
+            </form>
+        </section>
+            <section id="percents">
+
+
+            </section>
+        <section id="info-map">
+
+        </section>
+        </section>
+    </div>
+    <div class="col-sm-9">
+        <div id="map"> </div>
+    </div>
+</div>
+</div>
+
+</body>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/data.js"></script>
+<script src="js/map.js"></script>
+</html>
